@@ -41,11 +41,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: sky
+  - name: sky_bg
     uniqueID: 1715260663
     locked: 0
-  - name: middle
-    uniqueID: 1130646051
+  - name: tree_bg
+    uniqueID: 4021701555
     locked: 0
   - name: underground
     uniqueID: 3723587599
