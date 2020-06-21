@@ -53,9 +53,9 @@ TagManager:
   - name: ground
     uniqueID: 1837056211
     locked: 0
-  - name: player
+  - name: sprites
     uniqueID: 1647378921
     locked: 0
-  - name: ground_back
+  - name: ground_grass
     uniqueID: 3773152649
     locked: 0
