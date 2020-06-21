@@ -44,15 +44,18 @@ TagManager:
   - name: sky
     uniqueID: 1715260663
     locked: 0
+  - name: middle
+    uniqueID: 1130646051
+    locked: 0
   - name: underground
     uniqueID: 3723587599
     locked: 0
   - name: ground
     uniqueID: 1837056211
     locked: 0
-  - name: ground_back
-    uniqueID: 3773152649
-    locked: 0
   - name: player
     uniqueID: 1647378921
+    locked: 0
+  - name: ground_back
+    uniqueID: 3773152649
     locked: 0
