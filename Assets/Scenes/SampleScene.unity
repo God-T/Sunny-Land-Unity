@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 4
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -268,6 +268,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 117073526}
   anim: {fileID: 117073530}
+  coll: {fileID: 117073529}
+  ground:
+    serializedVersion: 2
+    m_Bits: 256
   speed: 400
   jumpForce: 800
 --- !u!58 &117073529
@@ -766,7 +770,7 @@ GameObject:
   - component: {fileID: 639582769}
   - component: {fileID: 639582768}
   - component: {fileID: 639582770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap_ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2732,7 +2736,7 @@ GameObject:
   - component: {fileID: 1119793983}
   - component: {fileID: 1119793982}
   - component: {fileID: 1119793984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap_underground_walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
